@@ -1,0 +1,13 @@
+6, 1 6, 1 5, 1 2, 2 1, 2 3, 3 2, 3 4, 4 3, 4 5, 4 1, 5 4, 5 2, 6 5
+PrintDigraph
+GetOrder
+GetSize
+GetOutDegree 1
+GetOutDegree 6
+AddEdge 6 1
+DeleteEdge 6 5
+PrintDigraph
+GetCountSCC
+GetNumSCCVertices 1
+InSameSCC 1 3
+PrintDigraph

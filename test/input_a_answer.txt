@@ -1,0 +1,20 @@
+PrintDigraph
+6, 1 6, 2 3, 3 2, 4 1, 4 3, 5 2, 5 3, 5 4, 6 4, 6 5
+GetOrder
+6
+GetSize
+10
+GetOutDegree 2
+1
+GetOutDegree 6
+2
+AddEdge 6 1
+0
+DeleteEdge 6 4
+0
+PrintDigraph
+6, 1 6, 2 3, 3 2, 4 1, 4 3, 5 2, 5 3, 5 4, 6 1, 6 5
+Nope
+ERROR
+AddEdge 0 7
+ERROR
